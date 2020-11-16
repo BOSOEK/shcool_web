@@ -55,25 +55,161 @@ nav li a:hover {
 /*section1---------------------*/
 #sec1 {
     height: 100vh;
-    background-image: url('../img/backimg2.jpg');
+    background-image: url('../img/rocketbackimg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #concept {
     height: 100vh;
-    background-color: rgba(46, 45, 45, 0.3);
+    background-color: rgba(46, 45, 45, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #concept h1 {
     color: white;
-    font-size: 65px;
+    font-size: 50px;
 }
 #concept iframe {
     margin-left: 43%;
 }
 #title {
     margin-top: -5%;
+}
+#sec1_box {
+    width: 150px;
+    height: 60px;
+    border: solid 1px white;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#sec1_box:hover {
+    background-color: white;
+    color: black;
+}
+
+/*section2==============================*/
+#sec2 {
+    height: 100vh;
+    background-image: url('../img/blue_dot.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#section2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blue_dot {
+    color: white; 
+    transition: 0.3s;
+}
+#blue_dot:hover {
+    color: rgb(74, 91, 189);
+}
+#LogoList {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#LogoList li {
+    margin: 0 30px;
+}
+#LogoList li img {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+}
+/*section3===============================*/
+#sec3 {
+    height: 100vh;
+    background-image: url('../img/main_SpaceX_backimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+#sec3 main {
+    width: 1100px;
+    display: flex;
+    height: 800px;
+    justify-content: left;
+    align-items: center;
+}
+#sec3 h2 {
+    line-height: 40px;
+}
+/*section4==============================*/
+#sec4 {
+    height: 100vh;
+    background-image: url('../img/main_blueorigin_backimg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+#sec4 main {
+    width: 1300px;
+    display: flex;
+    height: 700px;
+    justify-content: left;
+    align-items: center;
+}
+#sec4 h2 {
+    line-height: 40px;
+}
+
+/*section5=============================*/
+#sec5 {
+    height: 100vh;
+    background-image: url('../img/main_Nasa_backimg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+#sec5 main {
+    width: 1300px;
+    display: flex;
+    height: 700px;
+    justify-content: right;
+    align-items: center;
+}
+#sec5 h2 {
+    line-height: 40px;
+}
+
+
+/*footer===============================*/
+footer {
+    height: 10vh;
+    background-color: black;
+}
+footer ul {
+    height: 10vh;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer li {
+    color: white;
+    margin: 0 3%;
+}
+footer li:hover {
+    text-decoration: underline;
 }
