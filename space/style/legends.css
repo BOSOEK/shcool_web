@@ -52,6 +52,15 @@ nav li a:hover {
     color: rgb(107, 107, 199);
 }
 
+/*section1==============================*/
+#sec1 {
+    height: 100vh;
+    background-image: url('../img/legends_main_backimg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 /*footer===============================*/
