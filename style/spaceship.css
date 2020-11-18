@@ -95,6 +95,42 @@ nav li a:hover {
     font-size: 30px;
 }
 
+/*section2===========================================*/
+#sec2_backvideo {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.box {
+    width: 150px;
+    height: 60px;
+    border: solid 1px white;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.box:hover {
+    background-color: white;
+    color: black;
+}
+
+aside {
+    display: inline-block;
+}
+
+#sec2_mainbox {
+    justify-content: center;
+}
+#sec2_mainbox h1 {
+    font-size: 40px;
+}
+
+
 /*footer===============================*/
 footer {
     height: 10vh;
